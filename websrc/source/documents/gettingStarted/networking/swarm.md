@@ -91,7 +91,7 @@ Use the following command to create an endpoint group named `web` in network `co
 $ netctl group create contiv-net web -policy=prod_web
 ```
 
-*Note*: Every endpoint group creates a seperate Docker network of the form `<endpoint-group-name>.<network-name>`.
+*Note*: Every endpoint group creates a separate Docker network of the form `<endpoint-group-name>.<network-name>`.
 You can attach containers to these endpoint groups using the `--net` option in the `docker run` command.
 
 ## Step 7: Attach a Container

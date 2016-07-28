@@ -348,7 +348,7 @@ group, then assign nodes to it.</p>
 <code>prod_web</code> policy to it.</p>
 <pre class="highlight plaintext"><code>$ netctl group create contiv-net web -policy=prod_web
 </code></pre>
-<p><em>Note</em>: Every endpoint group creates a seperate Docker network of the form <code>&lt;endpoint-group-name&gt;.&lt;network-name&gt;</code>.
+<p><em>Note</em>: Every endpoint group creates a separate Docker network of the form <code>&lt;endpoint-group-name&gt;.&lt;network-name&gt;</code>.
 You can attach containers to these endpoint groups using the <code>--net</code> option in the <code>docker run</code> command.</p>
 
 <h2>Step 7: Attach a Container</h2>

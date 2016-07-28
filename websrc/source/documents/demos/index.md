@@ -8,7 +8,7 @@ description: |-
 
 # Video Demonstrations
 
-## Getting started
+## Getting Started
 
 ### Getting started with Contiv Networking
 <iframe width="600" height="400" src="https://www.youtube.com/embed/KzansAxCBQE?list=PL2k86RlAekM_g6csRwSRQAWvln5SmgicN" frameborder="0" allowfullscreen></iframe>

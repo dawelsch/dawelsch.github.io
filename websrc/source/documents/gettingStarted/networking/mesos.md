@@ -8,7 +8,7 @@ description: |-
 
 # Contiv Network with Mesos and Marathon
 
-Contiv Network supports Docker containerizer with Mesos and Marathon. 
+Contiv Network supports Docker containers with Mesos and Marathon. 
 This page explains how to get started using Contiv Network with Mesos and Marathon. 
 
 ## Prerequisites

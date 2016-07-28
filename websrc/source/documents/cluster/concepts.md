@@ -17,7 +17,7 @@ This page:
 The following terms are listed in alphabetical order.
 
 ### Bootstrap
-Bootstraping is provisioning a node or cluster for the first time. Contiv distinguishes two types of bootstrap:
+Bootstrapping is provisioning a node or cluster for the first time. Contiv distinguishes two types of bootstrap:
 
 - *Node Bootstrap*: The process of installing the node image and booting the node for the first time.
 - *Cluster Bootstrap*: The process of adding one or more bootstrapped nodes to the cluster for the first time.
@@ -40,7 +40,7 @@ Following is a list of features for Contiv Cluster. Not all features are impleme
     - Install
     - Upgrade
   - [Node configuration management](#node-configuration-management)
-    - Clustering software components (swarm-agent and similar componenets)
+    - Clustering software components (swarm-agent and similar components)
     - Infrastructure software components (ovs, serf, consul, etcd, and so on)
     - Contiv infrastructure services (netmaster, netplugin, volplugin, and supporting utilities)
   - [Bootstrap](#bootstrap-1)
@@ -112,7 +112,7 @@ operator or dynamically based on service availability policy.
 
 <a name="bootstrap-1"></a>
 ### Bootstrap
-Contiv provides node and cluster boostrapping.
+Contiv provides node and cluster bootstrapping.
 
 #### Node
 Contiv Cluster provides the following node bootstrapping capabilities:

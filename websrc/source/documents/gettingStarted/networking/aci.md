@@ -61,7 +61,7 @@ For password-based authentication, pass the password to the ACI-GW using the `AP
 To enable key-based authentication, follow these steps:
 
 1. Create a Key 
-Create a key and certicate. Add the certificate to APIC using the procedure described 
+Create a key and certificate. Add the certificate to APIC using the procedure described 
 [here](http://www.cisco.com/c/en/us/td/docs/switches/datacenter/aci/apic/sw/kb/b_KB_Signature_Based_Transactions.pdf).
 
 2. Set the APIC_CERT_DN Environment Variable

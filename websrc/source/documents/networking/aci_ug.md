@@ -116,7 +116,7 @@ netctl group create -t MixedTenant -e ToConsume -e ToProvide -p app2db net1 app
 
 Specify policy between tiers by adding rules to the policy you created. You can add multiple rules to the same policy.
 
-For example, the follwing rule opens TCP port 6379 from *app* to *db*.
+For example, the following rule opens TCP port 6379 from *app* to *db*.
 
 ```
 netctl policy rule-add -t MixedTenant -d in --protocol tcp --port 6379 --from-group app --action allow app2db 1

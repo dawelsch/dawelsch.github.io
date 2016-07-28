@@ -8,7 +8,7 @@ description: |-
 
 # Service Loadbalancing
 
-This page describes the implementation of service loadblancer support for Docker.
+This page describes the implementation of service loadbalancer support for Docker.
 
 ## What is a Service? 
 
@@ -66,7 +66,7 @@ docker run -itd --net=contiv-net --label=tier=web --label=release=stable --label
 
 ## Demonstration of Reachability to a Service from the Client Containers
 
-The followin example uses the *netcat* (`nc`) command to start listeners on each of the providers:
+The following example uses the *netcat* (`nc`) command to start listeners on each of the providers:
 
 ```
 docker exec -it 2c30b978c87bad64ced1f8158b72d17abf7748889464023d4e23a4bd24ae2d28 sh

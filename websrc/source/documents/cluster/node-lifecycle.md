@@ -78,7 +78,7 @@ The following command lists discovered nodes:
 clusterctl nodes get
 ```
 
-Fetch information about a single node with the following commnand: 
+Fetch information about a single node with the following command: 
 ```clusterctl node get <node-name>```
 
 It might take a few minutes after provisioning for the node discovery to propagate. If the command does not show provisioned nodes, wait and try again later.
@@ -139,7 +139,7 @@ clusterctl job get <active|last>
 ```
 
 #### Manage Multiple Nodes
-Perform the worflow to commission, decommission, or upgrade all or a subset of nodes using `clusterctl nodes` subcommands. Refer the documentation of individual commands for details.
+Perform the workflow to commission, decommission, or upgrade all or a subset of nodes using `clusterctl nodes` subcommands. Refer the documentation of individual commands for details.
 
 ```
 clusterctl nodes commission <space separated node-name(s)>

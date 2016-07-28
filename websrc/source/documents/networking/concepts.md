@@ -11,7 +11,7 @@ description: |-
 Using container networking with Contiv is as easy as creating networks
 and assigning containers to the networks. Contiv's real power, however, is the ability to 
 apply policies that govern the security, bandwidth, priority, and other parameters for container
-applications. Following are some concepts and terminoilogy required to understand
+applications. Following are some concepts and terminology required to understand
 Contiv's policy framework.
 
 ## Groups
@@ -28,7 +28,7 @@ groups belong to one network or an IP subnet.
 
 ## Policies
 A *policy* describes an operational behavior on a *group* of containers. The operational
-behavior can be enforcement, allocation, prioritation, traffic redirection,
+behavior can be enforcement, allocation, prioritization, traffic redirection,
 stats collection, or other action on the group on which the policy is applied. For
 example, an inbound security policy on a database tier can specify the allowed ports
 on the containers belonging to the group.
@@ -58,7 +58,7 @@ or clients to communicate with it.
 Contiv allows you to define two types of networks: An *application network* and
 an *infrastructure network*. An application network is used by container workloads,
 whereas the purpose of an *infrastructure network* is to create a virtual network
-in the host namespace. For example, infrastructure networkws are used by the virtual 
+in the host namespace. For example, infrastructure networks are used by the virtual 
 layer of host-resident infrastructure services such as monitoring, storage, or cluster stores.
 
 Network encapsulation *type* determines if a network is a *routed* network or a *bridged*
@@ -68,7 +68,7 @@ while a *bridged* network is useful in connecting to a *layer2 VLAN* network.
 ## Tenant
 *Tenants* provides namespace isolation for networks. A tenant can have many *networks*,
 each with its own subnet address, among other information. A user can create
-networks with arbtrary subnet addresses within a tenant namespace, possibly reusing
+networks with arbitrary subnet addresses within a tenant namespace, possibly reusing
 subnet IP addresses in other tenants. This provides complete freedom to a tenant
 user to specify the network names and their subnets within a tenant.
 
@@ -79,7 +79,7 @@ Depending on the mode of external connectivity (layer2, layer3, or
 Cisco ACI), the Contiv forwarding layer communicates the *tenant* to the external network
 using a *VLAN* or *VXLAN* ID. The Contiv routing plane (like BGP) is
 used to communicate the VRF-ID to rest of the network. See the documentation
-on layer3 BGP network configuraiton to learn more about configuration and usage.
+on layer3 BGP network configuration to learn more about configuration and usage.
 
 Note that for *overlay* networks, the need to communicate the tenant to the external network
 is not applicable.

@@ -10,13 +10,13 @@ description: |-
 
 There are several ways to try out Contiv Network. All of these ways fall into two categories:
 
-- [Use our Vagrant scripts to set up a small-scale virtual environment on an single machine.](#UsingVagrant)
-- [Install Contiv Network on two or more bare-metal or virtual servers.](#WithNetworkedServers)
+- [Use our Vagrant scripts to set up a small-scale virtual environment on a single machine.](#UsingVagrant)
+- [Install Contiv Network on two or more baremetal or virtual servers.](#WithNetworkedServers)
 
 <a name="UsingVagrant"/>
 ## On a Single Machine
 You can use our Vagrant script to get up and running fast on a single Linux or OS X machine.
-Vagrant is a utility for quickly and consistently setting up virtual machines (VMs).
+[Vagrant](http://vagrantup.com) is a utility for quickly and consistently setting up virtual machines (VMs).
 
 - [Try out Contiv Network with Docker Swarm](/documents/gettingStarted/networking/swarm.html).
 - [Try out Contiv Network with Kubernetes](/documents/gettingStarted/networking/k8s.html).

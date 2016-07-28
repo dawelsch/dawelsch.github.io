@@ -8,11 +8,11 @@ and description: |-
 
 # Contiv Network with Nomad
 
-This page demostrates the simplicity of using Contiv as 
+This page demonstrates the simplicity of using Contiv as 
 the networking and policy infrastructure for containers using Nomad to schedule 
 Docker containers. 
 
-The steps here can be adapted to any Vagrant or bare-metal setups running Contiv components.
+The steps here can be adapted to any Vagrant or baremetal setups running Contiv components.
 
 ## Prerequisites
 Before you can install the virtual environment, you must have the following
@@ -26,7 +26,7 @@ software packages on your machine:
 ## Step 1: Start the Virtual Environment
 
 Use the following commands to clone the Contiv Network [workspace] 
-and start the Vagrant envaronment with Nomad installed.
+and start the Vagrant environment with Nomad installed.
 
 ```
 $ git clone https://github.com/contiv/netplugin

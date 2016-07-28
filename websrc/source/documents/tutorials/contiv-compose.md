@@ -234,7 +234,7 @@ To quit, stop the composition:
 $ contiv-compose stop
 ```
 
-### 3. Specfying an Override Policy
+### 3. Specifying an Override Policy
 You can override the default policy.
 
 1\. Use a *policy label* to specify an override policy for a service tier.

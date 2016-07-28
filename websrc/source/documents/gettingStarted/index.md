@@ -11,11 +11,10 @@ Begin using Contiv right away. Separately set up Contiv's networking, storage,
 or clustering tools.
 
 ## [Networking](/documents/gettingStarted/networking)
-Set up a development environment or a cluster of servers using different clustering systems.
-
+Set up a development environment or a cluster of servers using different schedulers.
 
 ## [Storage](/documents/gettingStarted/storage/storage.html)
 Get started with Contiv Storage.
 
 ## [Cluster](/documents/gettingStarted/cluster)
-Try out contiv cluster in Vagrant environment.
+Try out Contiv Cluster in a [Vagrant](http://vagrantup.com) environment.

@@ -8,7 +8,7 @@ description: |-
 # Contiv Documentation
 
 ## User Guides
-Information about Contiv design, archtecture, and components, as well as getting-started
+Information about Contiv design, architecture, and components, as well as getting-started
 guides.
 
 - [Getting Started](/documents/gettingStarted)
@@ -18,7 +18,7 @@ guides.
 
 ## Tutorials and Talks
 - [Tutorials](/documents/tutorials)
-- [Demostration Videos](/documents/demos)
+- [Demonstration Videos](/documents/demos)
 - [Community Talks](/documents/talks)
 
 

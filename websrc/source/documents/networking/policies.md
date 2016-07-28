@@ -127,7 +127,7 @@ default  web-policy
 
 ```
 
-The followign lists all the rules in the policy:
+The following lists all the rules in the policy:
 
 ```
 $ netctl policy rule-ls web-policy
@@ -246,7 +246,7 @@ $ docker run -itd --net=stage-web-group --name=c1 alpine /bin/sh
 ```
 
 If you withdraw the `allow-diags` policy, all rules corresponding to the policy
-are withdrawn automatically. The withdrawl of a policy is done by providing the updated
+are withdrawn automatically. The withdrawal of a policy is done by providing the updated
 list of new policies associated with a group, for example:
 
 ```

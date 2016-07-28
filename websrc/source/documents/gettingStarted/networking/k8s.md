@@ -25,7 +25,7 @@ cluster with Contiv networking and applying policy between pods.
 
 2\. Set http/https proxies if your network requires it.
 *Note*: Set `https_proxy` to point to an `http://`
- URL (not `https://`). This is an ansible requirement.
+ URL (not `https://`). This is an Ansible requirement.
 
 3\. The setup scripts use the Python modules *parse* and *netaddr*. If these modules are not
 installed on the machine where you are executing these steps, install them
@@ -175,7 +175,7 @@ Notice that both pods were assigned IP addresses from the default network and
 that they can ping each other.
 
 ## Example 2: Labeled Network
-In this examply you use network labels to specify a network and EPG for the Pod.
+In this example you use network labels to specify a network and EPG for the Pod.
 
 Type the following command to create a Pod with `poc-net` and `poc-epg` specified as the 
 network and EPG respectively:
@@ -217,12 +217,12 @@ defaultnet-busybox2   1/1       Running   0          35m
 ## Example 3: Use Contiv to Specify and Enforce Network Policy
 
 In this example, you create a policy and attach it to an EPG. You specify
-this epg in the pod specification and verify that the policy is enforced.
+this EPG in the pod specification and verify that the policy is enforced.
 
 Examine `policy.sh`. This file contains Contiv commands to create a simple 
 ICMP deny rule, add the rule to a policy, and attach the policy to an EPG. 
 
-Excute this script to create the network objects:
+Execute this script to create the network objects:
 
 ```
 [root@k8master shared]# ./policy.sh

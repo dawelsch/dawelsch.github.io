@@ -22,8 +22,8 @@ where `<node_ip>` is a list of the IP addresses of all nodes in your cluster.
 5. If your servers are behind an http proxy, use the following commands to set the proxies on the install node: `export http_proxy=<proxy url>` and  `export https_proxy=<proxy_url>`. 
 6. Verify Python is installed on the target machines
 7. The setup scripts use the Python module *netaddr* and the Linux utility *bzip2*. If these are not installed on the machine where you are executing these steps, you must install them before proceeding. (You can use the following commands: `yum install bzip2; pip install netaddr`.)
-8. (Optional but recommeded): Enable passwordless SSH access from the installation server to all the other servers in the cluster. An example is [here](http://www.linuxproblem.org/art_9.html).
-9. (Optional but recommeded): Enable passwordless sudo on all servers.  An example is
+8. (Optional but recommended): Enable passwordless SSH access from the installation server to all the other servers in the cluster. An example is [here](http://www.linuxproblem.org/art_9.html).
+9. (Optional but recommended): Enable passwordless sudo on all servers.  An example is
 [here](http://askubuntu.com/questions/192050/how-to-run-sudo-command-with-no-password).
 10. Make a note of the IP addresses (or DNS names) of all the servers, and of the network
 interfaces on which these IP addresses are configured.

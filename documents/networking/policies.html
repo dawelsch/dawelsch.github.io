@@ -388,7 +388,7 @@ Tenant   Policy
 default  web-policy
 
 </code></pre>
-<p>The followign lists all the rules in the policy:</p>
+<p>The following lists all the rules in the policy:</p>
 <pre class="highlight plaintext"><code>$ netctl policy rule-ls web-policy
 Incoming Rules:
 Rule  Priority  From EndpointGroup  From Network  From IpAddress  Protocol  Port  Action
@@ -483,7 +483,7 @@ expect both of the policies be applied to any traffic to the container(s):</p>
 <pre class="highlight plaintext"><code>$ docker run -itd --net=stage-web-group --name=c1 alpine /bin/sh
 </code></pre>
 <p>If you withdraw the <code>allow-diags</code> policy, all rules corresponding to the policy
-are withdrawn automatically. The withdrawl of a policy is done by providing the updated
+are withdrawn automatically. The withdrawal of a policy is done by providing the updated
 list of new policies associated with a group, for example:</p>
 <pre class="highlight plaintext"><code>$ netctl group create contiv-net stage-web-group -policy=web-policy
 $ netctl group ls

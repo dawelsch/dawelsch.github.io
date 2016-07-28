@@ -69,7 +69,7 @@ Typing `volcli mount` without arguments prints help for these commands.
 * `volcli mount get` obtains specific information about a mount from etcd.
 * `volcli mount force-remove` removes the contents from etcd, but does not
   attempt to perform any unmounting. This is useful for removing mounts that
-  fail for some reason (e.g., host failure, which is not currently satsified by
+  fail for some reason (e.g., host failure, which is not currently satisfied by
   volplugin).
 
 ## Use Commands

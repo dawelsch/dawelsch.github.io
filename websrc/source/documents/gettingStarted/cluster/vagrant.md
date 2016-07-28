@@ -13,7 +13,7 @@ For Contiv Cluster manager with baremetal hosts or a multiple VMs, see  [Install
 To quickly create a virtual environment using the Vagrant environment setup tool, do the following:
 
 ## Prerequisites
-Install the following packages on your machnine:
+Install the following packages on your machine:
 
 - Vagrant 1.7.3 or later
 - VirtualBox 5.0 or later
@@ -51,4 +51,4 @@ CONTIV_NODES=3 vagrant ssh cluster-node1
 
 ## What to Do Next
 
-See the [Cluster](/documents/cluster/node-lifecycle.html) docuentation for information about managing the cluster lifecycle.
+See the [Cluster](/documents/cluster/node-lifecycle.html) documentation for information about managing the cluster lifecycle.

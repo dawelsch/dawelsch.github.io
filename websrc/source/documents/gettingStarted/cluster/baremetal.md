@@ -15,7 +15,7 @@ This page describes installing Contiv Cluster on one or more baremetal servers o
 ## Prerequisites
 Do the following before installing the Contiv Cluster packages:
 
-- Choose one of the nodes in your cluster from which to perform the installation. The resto of these instructions refer to this node as the *control host*. 
+- Choose one of the nodes in your cluster from which to perform the installation. The rest of these instructions refer to this node as the *control host*. 
 Unless stated otherwise, all the steps below are performed on the control host.
 - Create a user with admin privileges on the control host. The rest of these instructions refer to this login as *cluster-admin*.
   - The *cluster-admin* login can be an existing login.
@@ -50,7 +50,7 @@ echo node1 ansible_host=127.0.0.1 >> /tmp/hosts
 ansible-playbook --key-file=~/.ssh/id_rsa -i /tmp/hosts -e '{"env": {}, "control_interface": "ifname"}' ./site.yml
 ```
 
-- The `control_interface` is the net device that carries *Serf* traffic on this node. Subtitute the interface name for `ifname`.
+- The `control_interface` is the net device that carries *Serf* traffic on this node. Substitute the interface name for `ifname`.
 - The `env` is the environment for running Ansible tasks such as `http-proxy`. 
 
 If there is no special environment to be configured then set `control_interface` to an empty dictionary as shown in the example.
@@ -70,7 +70,7 @@ Following is a sample.
 }
 ```
 
-- The `playbook-location` must contain the path of th Ansible directory you cloned 
+- The `playbook-location` must contain the path of the Ansible directory you cloned 
 - The `user` must contain the name of the *cluster-admin* user 
 - The `priv_key_file` value is the location of the `id_rsa` file of the `cluster-admin` user
 
@@ -93,7 +93,7 @@ Log into the control host to manage the cluster.
 ### Provision Additional Nodes 
 Cluster Manager uses *Serf* as a discovery service for node health monitoring and for cluster bootstrapping. 
 
-Use the following command to make more nodes for the cluster availble through discovery:
+Use the following command to make more nodes for the cluster available through discovery:
 
 ```
 clusterctl discover <host-ip>
@@ -385,7 +385,7 @@ The following variables are applicable when `contiv_network_mode` is set to `aci
 ##### Standalone Mode
 The following variables are applicable when `contiv_network_mode` is set to `standalone`:
 
-- **fwd_mode** specifies whether netplugin shall bridge or route the packet. Netplugin supports two forwarding modes viz. `bridge` and `routing`.
+- **fwd_mode** specifies whether netplugin shall bridge or route the packet. Netplugin supports two forwarding modes, `bridge` and `routing`.
 - **fwd_mode** is specified as a JSON string.
 
 ```

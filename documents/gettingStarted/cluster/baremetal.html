@@ -286,7 +286,7 @@ GitHub</a></li>
 <p>Do the following before installing the Contiv Cluster packages:</p>
 
 <ul>
-<li>Choose one of the nodes in your cluster from which to perform the installation. The resto of these instructions refer to this node as the <em>control host</em>. 
+<li>Choose one of the nodes in your cluster from which to perform the installation. The rest of these instructions refer to this node as the <em>control host</em>. 
 Unless stated otherwise, all the steps below are performed on the control host.
 </li>
 <li>Create a user with admin privileges on the control host. The rest of these instructions refer to this login as <em>cluster-admin</em>.
@@ -330,7 +330,7 @@ ansible-playbook --key-file=~/.ssh/id_rsa -i /tmp/hosts -e '{"env": {}, "control
 </code></pre>
 
 <ul>
-<li>The <a name="control_interface"/><a href="#control_interface"><code>control_interface</code></a> is the net device that carries <em>Serf</em> traffic on this node. Subtitute the interface name for <code>ifname</code>.
+<li>The <a name="control_interface"/><a href="#control_interface"><code>control_interface</code></a> is the net device that carries <em>Serf</em> traffic on this node. Substitute the interface name for <code>ifname</code>.
 </li>
 <li>The <a name="env"/><a href="#env"><code>env</code></a> is the environment for running Ansible tasks such as <code>http-proxy</code>. 
 </li>
@@ -351,7 +351,7 @@ Following is a sample.</p>
 </code></pre>
 
 <ul>
-<li>The <a name="playbook_location"/><a href="#playbook_location"><code>playbook-location</code></a> must contain the path of th Ansible directory you cloned 
+<li>The <a name="playbook_location"/><a href="#playbook_location"><code>playbook-location</code></a> must contain the path of the Ansible directory you cloned 
 </li>
 <li>The <a name="user"/><a href="#user"><code>user</code></a> must contain the name of the <em>cluster-admin</em> user 
 </li>
@@ -376,7 +376,7 @@ Following is a sample.</p>
 
 <h3>Provision Additional Nodes</h3>
 <p>Cluster Manager uses <em>Serf</em> as a discovery service for node health monitoring and for cluster bootstrapping.</p>
-<p>Use the following command to make more nodes for the cluster availble through discovery:</p>
+<p>Use the following command to make more nodes for the cluster available through discovery:</p>
 <pre class="highlight plaintext"><code>clusterctl discover &lt;host-ip&gt;
 </code></pre>
 <p>The <code>&lt;host-ip&gt;</code> should be one or more IP addresses from the management network that the nodes are on.
@@ -658,7 +658,7 @@ Ansible plays on the <a href="https://github.com/contiv/cluster/tree/master/vend
 <p>The following variables are applicable when <code>contiv_network_mode</code> is set to <code>standalone</code>:</p>
 
 <ul>
-<li><strong>fwd_mode</strong> specifies whether netplugin shall bridge or route the packet. Netplugin supports two forwarding modes viz. <a name="bridge"/><a href="#bridge"><code>bridge</code></a> and <code>routing</code>.
+<li><strong>fwd_mode</strong> specifies whether netplugin shall bridge or route the packet. Netplugin supports two forwarding modes, <a name="bridge"/><a href="#bridge"><code>bridge</code></a> and <code>routing</code>.
 </li>
 <li><strong>fwd_mode</strong> is specified as a JSON string.
 </li>

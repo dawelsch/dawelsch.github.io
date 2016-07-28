@@ -16,5 +16,5 @@ to take advantage of their storage.
 ## Table of Contents
 - [Architecture](/documents/storage/architecture.html)
 - [Configuration](/documents/storage/configuration.html)
-- [Creating a container with a volume](/documents/storage/containers.html)
-- [Volcli Reference](/documents/storage/volcli.html)
+- [Creating a Container with a Volume](/documents/storage/containers.html)
+- [Contiv Storage CLI Reference](/documents/storage/volcli.html)

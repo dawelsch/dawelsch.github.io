@@ -20,7 +20,7 @@ To learn about container networking basics, including descriptions of both model
 read our self-guided hands-on [Tutorial](/documents/tutorials/container-101.html).
 
 ## Learning Resources
-Other learning resources on this site, designed to help you get up to speed on Contiv and container networkinginclude:
+Other learning resources on this site, designed to help you get up to speed on Contiv and container networking, include:
 
 - [Contiv Features](/documents/networking/features.html)
 - [Concepts and Terminology](/documents/networking/concepts.html)

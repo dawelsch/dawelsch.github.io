@@ -10,7 +10,7 @@ description: |-
 
 This page describes how to configure the Contiv infrastructure in L3 native VLAN mode.
 
-The following figure shows a Contiv cluster with routing capabilites:
+The following figure shows a Contiv cluster with routing capabilities:
 
 ![bgp](bgp_arch.png)
 
@@ -18,7 +18,7 @@ The following figure shows a Contiv cluster with routing capabilites:
 
 Follow the [Prerequisites](install-swarm.html#Prerequisites) and [Download](install-swarm.html#Download)
 steps on the [Swarm Cluster](install-swarm.html) installation page. 
-These steps install all of the required packages and binaries needed to start the Contiv infrastrure services. 
+These steps install all of the required packages and binaries needed to start the Contiv infrastructure services. 
 
 ## Step 1: Run the Installer Script
 Use the following command to run the installer script:

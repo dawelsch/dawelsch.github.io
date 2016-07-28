@@ -279,7 +279,7 @@ GitHub</a></li>
 			<div class="bs-docs-section">
 				
 	<h1>Service Loadbalancing</h1>
-<p>This page describes the implementation of service loadblancer support for Docker.</p>
+<p>This page describes the implementation of service loadbalancer support for Docker.</p>
 
 <h2>What is a Service?</h2>
 <p>A service is an abstraction providing a network connection on a set of ports to a cluster of 
@@ -330,7 +330,7 @@ docker run -itd --net=contiv-net --label=tier=web --label=release=stable --label
 </code></pre>
 
 <h2>Demonstration of Reachability to a Service from the Client Containers</h2>
-<p>The followin example uses the <em>netcat</em> (<code>nc</code>) command to start listeners on each of the providers:</p>
+<p>The following example uses the <em>netcat</em> (<code>nc</code>) command to start listeners on each of the providers:</p>
 <pre class="highlight plaintext"><code>docker exec -it 2c30b978c87bad64ced1f8158b72d17abf7748889464023d4e23a4bd24ae2d28 sh
 #nc -l -p 80 &amp;
 
